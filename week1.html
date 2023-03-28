@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Challenge Week 1</title>
+	<link rel="stylesheet" type="text/css" href="estilow1.css">
+	<script type="text/javascript" src="scriptw1.js"></script>
+</head>
+<body>
+	<div class="info">
+		<h1 class="info__title">INFORMATION FORM</h1>
+		<div class="info__container-form">
+			<form class="info__form" id="form" onsubmit="return revision()">
+				<b>Name:</b><input type="text" id="form-name" class="info__form-name" placeholder="Inserte Nombre">
+				<b>Last Name:</b><input type="text" id="form-last" class="info__form-last"   placeholder="Inserte Apellido">
+				<b>Email:</b><input type="email" id="form-email" class="info__form-email"   placeholder="Inserte su correo electrónico">
+				<b>Password:</b><input type="password" id="form-pass" class="info__form-pass"   placeholder="Inserte al menos 5 caracteres">
+				<b>Password Confirmation:</b><input type="password" id="form-confirm" class="info__form-pass-confirm"   placeholder="Confirme su contraseña">
+				<div class="info__form-container-phone">
+					<b>Phone:</b><input type="phone" id="form-phone" class="info__form-phone"   placeholder="Inserte su teléfono">
+				</div><div class="info__form-container-age">
+					<b>Age:</b><input type="number" id="form-age" class="info__form-age"   placeholder="Inserte su Edad">
+				</div>
+				<b>Website:</b><input type="url" id="form-website" class="info__form-website"   placeholder="http://www.url.com">
+
+				<div class="info__form-container-exp">
+					<b>Experience level:</b>
+					<select class="info__form-exp" id="form-exp" >
+						<option id="selected" value="" selected disabled hidden>-Select-</option>
+						<option>No experience</option>
+						<option>Begginer</option>
+						<option>Intermedium</option>
+						<option>Advance</option>
+						<option>Master</option>
+					</select>
+				</div>
+
+				<div class="info__form-container-terms">
+					<b><input type="checkbox" class="info__form-terms" id="form-terms">Quiero recibir información en correo electrónico</b>
+				</div>
+
+				<input type="submit" class="info__form-button">
+
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
